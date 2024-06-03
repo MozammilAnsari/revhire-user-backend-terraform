@@ -236,7 +236,7 @@ resource "aws_iam_role_policy_attachment" "codepipeline_codebuild_developeracces
 }
 
 resource "aws_s3_bucket" "codepipeline_bucket" {
-  bucket = "revhire-user-codepipeline-artifacts"
+  bucket = "revhire-user-codepipeline-artifacts-1"
   force_destroy = true
 }
 
