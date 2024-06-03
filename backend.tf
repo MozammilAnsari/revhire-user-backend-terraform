@@ -4,7 +4,7 @@ terraform {
     key            = "terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
-    dynamodb_table = "revhire-user-backend-dynamodb"
+    dynamodb_table = "revhire-backend-table"
   }
 }
 
